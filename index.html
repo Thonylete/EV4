@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            font-family: 'Baloo 2', sans-serif;
+            font-size: 3rem; 
+        }
+
+        .carousel-inner img {
+            height: 50vh;
+            object-fit: cover;
+        }
+
+        .content-wrapper {
+            background: linear-gradient(to right, white, orange);
+            padding-top: 30px; 
+            min-height: 100vh; 
+        }
+
+        .card {
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.1); 
+        }
+
+        .card:hover {
+            box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2); 
+        }
+    </style>
+</head>
+<body>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/imagen2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imagen3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Concepto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-wrapper">
+        <div class="container mt-5">
+            <h1 class="text-start">Hola Profesor!</h1>
+            <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ad harum sint eum voluptates doloremque, facere, necessitatibus nihil, laudantium obcaecati distinctio fugit sequi dolorem expedita consectetur reprehenderit a laboriosam nobis. Minus ullam odio in quisquam molestiae maiores excepturi porro quis quae laboriosam rem dolore officiis quidem, error repellat. Sapiente est porro iure sint sed in fugiat commodi tempore saepe quo alias quidem quibusdam ullam adipisci culpa, officia ut quae totam voluptatibus quisquam, ea aperiam at voluptatem? Odio reiciendis doloribus quae non dolorum eligendi veritatis, enim vel voluptates earum atque ab doloremque aut, porro deleniti ipsa voluptas velit modi officiis delectus!
+            </p>
+            <div class="text-start">
+                <button class="btn btn-primary">Leer más</button>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Tarjeta 1</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo nihil modi excepturi minima quam iusto. Repudiandae eum mollitia ipsa!
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Tarjeta 2</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo nihil modi excepturi minima quam iusto. Repudiandae eum mollitia ipsa!
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Tarjeta 3</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo nihil modi excepturi minima quam iusto. Repudiandae eum mollitia ipsa!
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                    <img src="img/imagen1.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2>Suscríbete a mi canal!!!!</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates quo consectetur eaque, repellat nisi inventore ipsum, quidem aut hic voluptatibus, qui animi! Vel asperiores dolor necessitatibus, quasi maiores quod! Iste quo voluptates eos quis velit repudiandae ratione optio eum explicabo fugit, molestias adipisci tempora nobis dicta voluptatum odit, nostrum autem obcaecati veritatis aspernatur. Minima vitae ullam ab dolor sed amet quisquam cumque voluptatem, nihil, earum iure. Repudiandae minima fugit quibusdam exercitationem error distinctio facere perferendis sequi rerum ea, repellat ipsa expedita a eius maxime quos doloremque sunt dolorum voluptas. Saepe iusto tenetur aperiam sequi reprehenderit eveniet nihil officiis eligendi similique consequuntur veniam natus adipisci quis modi vitae quas inventore, voluptatem aspernatur quam, temporibus voluptatum dolor. Maiores esse culpa aspernatur excepturi magnam est tempore cum sapiente ipsa reiciendis in commodi fuga ea nesciunt accusamus eos alias nihil ex dolore, facilis sit nobis eum. Ratione quis ut amet possimus mollitia minus nobis sequi asperiores aliquid eius voluptatem dolores, cupiditate, enim veritatis doloribus quae odit optio ad nostrum voluptatum, consectetur quasi sunt est id? Non, impedit? Facere.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 text-center">
+            <img src="img/imagen4.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
